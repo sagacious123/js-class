@@ -1,3 +1,15 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(205, 226, 239);
+    border-radius: 40px;
+}
 .style1 {
     background-color: aqua;
     padding: 10px;
@@ -20,6 +32,7 @@ nav {
     z-index: 9;
     right: 20px;
     top: 10px;
+    background: linear-gradient();
 }
 
 .open-nav {
